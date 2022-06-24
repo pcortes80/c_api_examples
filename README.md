@@ -4,8 +4,7 @@ Examples from FPGA Interface C API webpage.
 
 ## Instructions
 
-In order to run the examples in this directory, you must compile a LabVIEW FPGA bitfile and generate a C API for it.
-For more information about using these examples, refer to the Examples topic of the NI FPGA Interface C API Help, located under **start >> All apps >> National Instruments >> NI FPGA Interface C API**.
+Clone this repo on your machine. You must compile a LabVIEW FPGA bitfile and generate a C API for it.
 
 ## C API Documentation
 
