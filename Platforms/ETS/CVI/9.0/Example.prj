@@ -1,0 +1,149 @@
+[Project Header]
+Version = 900
+Pathname Line0001 = "/c/Documents and Settings/All Users/Documents/National Instruments/FPGA Interfac"
+Pathname Line0002 = "e C API/Examples/Platforms/ETS/CVI/9.0/Example.prj"
+CVI Dir = "/c/program files/national instruments/cvi90"
+CVI Shared Dir = "/C/Program Files/National Instruments/Shared/CVI"
+CVI Pub Local Dir = "/C/Documents and Settings/All Users/Application Data/National Instruments/CVI90"
+CVI Pub Global Dir = "/C/Documents and Settings/All Users/Application Data/National Instruments/CVI"
+IVI Standard Root Dir = "/C/Program Files/IVI"
+VXIplug&play Framework Dir = "/C/Program Files/IVI Foundation/VISA/winnt"
+Number of Files = 2
+Target Type = "Dynamic Link Library"
+Flags = 16
+Copied From Locked InstrDrv Directory = False
+Copied from VXIPNP Directory = False
+Locked InstrDrv Name = ""
+Don't Display Deploy InstrDrv Dialog = False
+
+[File 0001]
+File Type = "CSource"
+Res Id = 1
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "Example.c"
+Path Line0001 = "/c/Documents and Settings/All Users/Documents/National Instruments/FPGA Interfac"
+Path Line0002 = "e C API/Examples/Platforms/ETS/CVI/9.0/Example.c"
+Exclude = False
+Compile Into Object File = False
+Project Flags = 0
+Folder = "Source Files"
+
+[File 0002]
+File Type = "Include"
+Res Id = 2
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "NiFpga_ExampleRSeries.h"
+Path Line0001 = "/c/Documents and Settings/All Users/Documents/National Instruments/FPGA Interfac"
+Path Line0002 = "e C API/Examples/Platforms/ETS/CVI/9.0/NiFpga_ExampleRSeries.h"
+Exclude = False
+Project Flags = 0
+Folder = "Include Files"
+
+[Folders]
+User Interface Files Folder Not Added Yet = True
+Instrument Files Folder Not Added Yet = True
+Folder 0 = "Source Files"
+Folder 1 = "Include Files"
+
+[Compiler Options]
+Default Calling Convention = "cdecl"
+Require Prototypes = True
+Require Return Values = True
+Enable Pointer Mismatch Warning = False
+Enable Unreachable Code Warning = True
+Enable Unreferenced Identifiers Warning = False
+Enable Assignment In Conditional Warning = True
+O Option Compatible With 5.0 = False
+Enable C99 Extensions = True
+Uninitialized Locals Compile Warning = "Conservative"
+Precompile Prefix Header = False
+Prefix Header File = ""
+
+[Run Options]
+Stack Size = 250000
+Image Base Address = 268435456
+
+[Compiler Defines]
+Compiler Defines = "/DWIN32_LEAN_AND_MEAN"
+
+[Create Executable]
+Executable File_Debug Is Rel = True
+Executable File_Debug Rel To = "Project"
+Executable File_Debug Rel Path = "Example.dll"
+Executable File_Debug Line0001 = "/c/Documents and Settings/All Users/Documents/National Instruments/FPGA Interfac"
+Executable File_Debug Line0002 = "e C API/Examples/Platforms/ETS/CVI/9.0/Example.dll"
+Executable File_Release Is Rel = True
+Executable File_Release Rel To = "Project"
+Executable File_Release Rel Path = "Example.dll"
+Executable File_Release Line0001 = "/c/Documents and Settings/All Users/Documents/National Instruments/FPGA Interfac"
+Executable File_Release Line0002 = "e C API/Examples/Platforms/ETS/CVI/9.0/Example.dll"
+Executable File_Debug64 Is Rel = True
+Executable File_Debug64 Rel To = "Project"
+Executable File_Debug64 Rel Path = "Example.dll"
+Executable File_Debug64 Line0001 = "/c/Documents and Settings/All Users/Documents/National Instruments/FPGA Interfac"
+Executable File_Debug64 Line0002 = "e C API/Examples/Platforms/ETS/CVI/9.0/Example.dll"
+Executable File_Release64 Is Rel = True
+Executable File_Release64 Rel To = "Project"
+Executable File_Release64 Rel Path = "Example.dll"
+Executable File_Release64 Line0001 = "/c/Documents and Settings/All Users/Documents/National Instruments/FPGA Interfac"
+Executable File_Release64 Line0002 = "e C API/Examples/Platforms/ETS/CVI/9.0/Example.dll"
+Icon File Is Rel = False
+Icon File = ""
+Application Title = ""
+DLL Exports = "Symbols Marked As Export"
+DLL Import Library Choice = "Gen Lib For Current Mode"
+Use IVI Subdirectories for Import Libraries = False
+Use VXIPNP Subdirectories for Import Libraries = False
+Use Dflt Import Lib Base Name = True
+Where to Copy DLL = "Do not copy"
+Custom Directory to Copy DLL Is Rel = False
+Custom Directory to Copy DLL = ""
+Add Type Lib To DLL = False
+Include Type Lib Help Links = False
+Type Lib FP File Is Rel = False
+Type Lib FP File = ""
+Type Lib Guid = ""
+Runtime Support = "LabVIEW RealTime Support Only"
+Instrument Driver Support Only = True
+Embed Project .UIRs = False
+Generate Map File = False
+
+[External Compiler Support]
+UIR Callbacks File Option = 0
+Using LoadExternalModule = False
+Create Project Symbols File = True
+UIR Callbacks Obj File Is Rel = False
+UIR Callbacks Obj File = ""
+Project Symbols H File Is Rel = False
+Project Symbols H File = ""
+Project Symbols Obj File Is Rel = False
+Project Symbols Obj File = ""
+
+[ActiveX Server Options]
+Specification File Is Rel = False
+Specification File = ""
+Source File Is Rel = False
+Source File = ""
+Include File Is Rel = False
+Include File = ""
+IDL File Is Rel = False
+IDL File = ""
+Register ActiveX Server = False
+
+[Signing Info]
+Sign = False
+Sign Debug Build = False
+Store = ""
+Certificate = ""
+Timestamp URL = ""
+URL = ""
+
+[Manifest Info]
+Embed = False
+
+[tpcSection]
+tpcEnabled = 0
+tpcOverrideEnvironment = 0
+
